@@ -9,7 +9,6 @@ load_dotenv()
 
 # Obtén la clave API desde la variable de entorno
 openai.api_key = os.getenv("OPENAI_API_KEY")
-# print(f"API Key: {openai.api_key}") 
 
 # Tu currículum en formato Markdown
 md_resume = """
